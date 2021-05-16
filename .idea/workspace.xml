@@ -70,6 +70,11 @@
       <change afterPath="$PROJECT_DIR$/../Angular/my-app/src/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NasaApi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NasaApi/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NasaApi/views/partials/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NasaApi/views/partials/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdateObjectInArray.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateObjectInArray.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/posts.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../classes/Apod.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../classes/Axios.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../classes/test.js" beforeDir="false" />
@@ -630,6 +635,8 @@
       <workItem from="1620932466659" duration="3854000" />
       <workItem from="1620975801938" duration="17176000" />
       <workItem from="1621078020513" duration="20162000" />
+      <workItem from="1621123558900" duration="245000" />
+      <workItem from="1621154917387" duration="1677000" />
     </task>
     <servers />
   </component>
