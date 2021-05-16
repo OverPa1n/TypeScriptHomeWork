@@ -11,9 +11,11 @@ import { updateObjectInArray } from "./UpdateObjectInArray.js";
 //Send request to API
 const sendRequest = () => {
     return new Promise(((resolve) => __awaiter(void 0, void 0, void 0, function* () {
+        let dataFromRequest;
         let response = yield fetch('https://jsonplaceholder.typicode.com/posts');
-        let data = yield response.json();
-        let posts = data.map((items) => {
+        (response.ok ? dataFromRequest = yield response.json() : Promise.reject(response));
+        //Iterate over posts
+        let posts = dataFromRequest.map((items) => {
             return {
                 id: items.id,
                 title: items.title,
@@ -28,6 +30,6 @@ sendRequest().then(data => renderPost(updateObjectInArray(data, 'title', 'new ti
 const renderPost = (arrayOfPosts) => {
     let div = document.querySelector('.posts');
     div.innerHTML = arrayOfPosts.map((items) => {
-        return `<p>${items.id} ${items.title} ${items.body}</p>`;
+        return `<p>${items.id}<br/> <span>${items.title}</span> <br/>${items.body}</p>`;
     }).join(' ');
 };

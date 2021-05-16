@@ -7,7 +7,7 @@ let newArr = JSON.parse(JSON.stringify(obj));
         if(element.hasOwnProperty(key)) {
             element[key] = newKeyValue;
         }else {
-            console.log('wrong key');
+            console.log('This key is not exist');
         }
     })
 
